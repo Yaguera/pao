@@ -1,0 +1,147 @@
+body{
+    width: 700px;
+    background-color: #f4f0e5;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Tahoma;
+    
+}
+
+header{
+    text-align: center;
+    border-bottom: 1px solid #de8e37;
+}
+
+ul{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+li{
+    font-size: 18px;
+}
+
+a{
+    color:  #542f0c;
+    text-decoration: underline;
+}
+
+.content-header img{
+    width: 200px;
+    margin-left: ;
+}
+
+.secao-sobre{
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 10px;
+    color:#de8e37;
+    font-weight: normal;
+}
+
+.secao-sobre img{
+    width: 700px;
+}
+
+.secao-produtos{
+    background-color: #de8e37;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.secao-produtos h3{
+    font-size: 24px;
+}
+
+.secao-produtos h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.secao-produtos p{
+    width: 500px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.secao-produtos img{
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 40px;
+}
+
+.secao-contato{
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px 40px;
+    border: 2px solid #fff;
+    letter-spacing: 9px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;    
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #de8e37;
+}
+
+.button:after{
+content: '';
+position: absolute;
+left: 0;
+bottom: -35%;
+background-color: transparent;
+height: 50%;
+width: 100%;
+transform: perspective(25px) rotatex(45deg)  scale(1.2,0.45);
+filter: blur(17px);
+transition: background-color 0.5s;
+}
+
+.button:hover:after{
+    background-color: #fff
+}
+
+.button2{
+   
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background:#dddddd ;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #de8e37;
+
+}
